@@ -29,7 +29,7 @@ I work in the fields of deep learning and computer vision, with particular focus
 
 - *Apr. 2024*. &nbsp;🎉🎉 Our state-of-the-art 3D dense captioning method [Vote2Cap-DETR++](https://arxiv.org/abs/2309.02999) [![](https://img.shields.io/github/stars/ch3cook-fdu/Vote2Cap-DETR?style=social)](https://github.com/ch3cook-fdu/Vote2Cap-DETR), is accepted to <font color="#dd0000">T-PAMI 2024</font>.
 - *Mar. 2024*. &nbsp;🎉🎉 We propose a new  [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench) paper is pre-printed.
-- *Mar. 2024*. &nbsp;🎉🎉 Our [LGD]()，a new method for lightweight model pre-training, has received major revisions for <font color="#dd0000">T-MM</font>.
+- *Mar. 2024*. &nbsp;🎉🎉 Our [LGD](), a new method for lightweight model pre-training, has received major revisions for <font color="#dd0000">T-MM</font>.
 - *Feb. 2024*. &nbsp;🎉🎉 Our Large Language 3D Assistant, [LL3DA](https://arxiv.org/abs/2311.18651) [![](https://img.shields.io/github/stars/Open3DA/LL3DA?style=social)](https://github.com/Open3DA/LL3DA), is accepted to <font color="#dd0000">CVPR 2024</font>. 
 - *Jan. 2024*. &nbsp;🐧🐧 Join Tencent as a research intern, working on 3D generation. 
 - *Oct. 2023*. &nbsp;🥇🥇 Win the Scan2Cap Challenge at <font color="#dd0000">ICCV 2023</font>. 
@@ -100,16 +100,16 @@ I work in the fields of deep learning and computer vision, with particular focus
 
 # 📖 Educations
 
-- *Sep. 2021 - Jun. 2024 (expected)*. Master student at Fudan University. 
-- *Sep. 2017 - Jun. 2021*. Bachelor student at Fudan University. 
+- *Sep. 2022 - Jun. 2025 (expected)*. Master student at Fudan University. 
+- *Sep. 2018 - Jun. 2022*. Bachelor student at Fudan University. 
 
 
 
 
-# 💬 Oral Presentations
+<!-- # 💬 Oral Presentations
 
 - *Oct. 2023*. Winner presentation of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at **<font color="#dd0000">ICCV 2023</font>**. \[[talk](https://www.youtube.com/watch?v=RLrdi-Yhn1o) \| [slides](presentation/[ICCV 2023 workshop talk] Vote2Cap-DETR.pdf)\]
-- *Jun. 2023*. Paper presentation for "*End-to-End 3D Dense Captioning with Vote2Cap-DETR*" at the Workshop for Advances in 3D Vision, **<font color="#dd0000">VALSE 2023</font>**, Wuxi, China. 
+- *Jun. 2023*. Paper presentation for "*End-to-End 3D Dense Captioning with Vote2Cap-DETR*" at the Workshop for Advances in 3D Vision, **<font color="#dd0000">VALSE 2023</font>**, Wuxi, China. -->
 
 
 
