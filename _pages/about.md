@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! My name is Mingsheng Li (中文名: 李铭晟). I am currently a second-year Master's student in Artificial Intelligence at Fudan University, advised by Prof. [Tao Chen](https://eetchen.github.io/). I am also fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, and Dr. [Xin Chen](https://chenxin.tech/), Dr. [Chi Zhang](https://icoz69.github.io/), and Dr. [Gang Yu](https://www.skicyyu.org/) from Tencent. Before this, I received my bachelor’s degree in Electronic Engineering from Fudan University in 2022.
+Hi! My name is Mingsheng Li (中文名: 李铭晟). I am currently a second-year Master's student in Artificial Intelligence at Fudan University with my graduation anticipated in Jun. 2025, advised by Prof. [Tao Chen](https://eetchen.github.io/). I am also fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, and Dr. [Xin Chen](https://chenxin.tech/), Dr. [Chi Zhang](https://icoz69.github.io/), and Dr. [Gang Yu](https://www.skicyyu.org/) from Tencent. Before this, I received my bachelor’s degree in Electronic Engineering from Fudan University in 2022.
 
 
 
