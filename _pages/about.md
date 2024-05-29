@@ -30,7 +30,6 @@ I work in the fields of deep learning and computer vision, with particular focus
 - *Apr. 2024*. &nbsp;🎉🎉 Our state-of-the-art 3D dense captioning method [Vote2Cap-DETR++](https://arxiv.org/abs/2309.02999) [![](https://img.shields.io/github/stars/ch3cook-fdu/Vote2Cap-DETR?style=social)](https://github.com/ch3cook-fdu/Vote2Cap-DETR), is accepted to <font color="#dd0000">T-PAMI 2024</font>.
 - *Mar. 2024*. &nbsp;🎉🎉 We propose a new  [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench) paper is pre-printed.
 - *Mar. 2024*. &nbsp;🎉🎉 Our [LGD]()，a new method for lightweight model pre-training, has received major revisions for <font color="#dd0000">T-MM</font>.
-
 - *Feb. 2024*. &nbsp;🎉🎉 Our Large Language 3D Assistant, [LL3DA](https://arxiv.org/abs/2311.18651) [![](https://img.shields.io/github/stars/Open3DA/LL3DA?style=social)](https://github.com/Open3DA/LL3DA), is accepted to <font color="#dd0000">CVPR 2024</font>. 
 - *Jan. 2024*. &nbsp;🐧🐧 Join Tencent as a research intern, working on 3D generation. 
 - *Oct. 2023*. &nbsp;🥇🥇 Win the Scan2Cap Challenge at <font color="#dd0000">ICCV 2023</font>. 
@@ -89,12 +88,12 @@ I work in the fields of deep learning and computer vision, with particular focus
 
 # 🥇 Awards and Scholarships
 
-- *Apr. 2024*. Award for **Outstanding Graduate Student** (rank 1/24).
-- *Oct. 2023*. **1st** place of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at *ICCV 2023*.
-- *Sep. 2023*. **National Scholarship** (rank 1/46).
-- *Sep. 2022*. **2nd** prize of the Scholarship for Outstanding Students of Master's Degrees.
-- *Sep. 2021*. Award for the Scholarship for Outstanding Students of Master's Degrees.
-- *Jun. 2021*. **2nd** prize of the Scholarship for Outstanding Students.
+- *2023*. **2nd** Prize of Graduate Academic Scholarship. 
+- *2022*. **Outstanding Graduate** of Fudan University.
+- *2020*. **2nd** Prize of China Undergraduate Mathematical Contest in Modeling, Shanghai.
+- *2020*. **STEM** (Science, Technology, Engineering, Mathematics) Scholarship.
+- *2019*. **1st** of Chinese Mathematics Competitions, Shanghai (Top 20).
+- *2019*. **National Encouragement Scholarship**.
 
 
 
