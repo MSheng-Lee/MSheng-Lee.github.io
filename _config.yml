@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Sijin Chen(思锦 陈)"
+title                    : "Mingsheng Li (李铭晟)"
 description              : "Final year master student at Fudan University. Focusing on 3D, vision and language."
 repository               : 
 google_scholar_stats_use_cdn : true
@@ -21,15 +21,15 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Sijin Chen(思锦 陈)"
+  name             : "Sijin Chen (李铭晟)"
   # avatar           : "images/android-chrome-512x512.png"
   avatar           : "images/bio.png"
   bio              : "Fudan University"
   location         : "Shanghai, China"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate"
-  email            : "csjch3cook@gmail.com"
+  # googlescholar    : "https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate"
+  email            : "limc22@m.fudan.edu.cn"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -38,7 +38,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "ch3cook-fdu"
+  github           : "MSheng-Lee"
   google_plus      :
   keybase          :
   instagram        :
