@@ -17,11 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am graduating as a Master's student in Artificial Intelligence from Fudan University (Sep. 2021 - Jun. 2024), where Prof. [Tao Chen](https://eetchen.github.io/) is my advisor. I am fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, and Dr. [Gang Yu](https://www.skicyyu.org/), Dr. [Xin Chen](https://chenxin.tech/), and Dr. [Chi Zhang](https://icoz69.github.io/) from Tencent. Before this, I obtained my Bachelor's degree in Data Science and Big Data Technology also from Fudan University (Sep. 2017 - Jun. 2021).
+Hi! My name is Mingsheng Li (Chinese: 李铭晟). I am currently a second-year Master's student in Artificial Intelligence at Fudan University, advised by Prof. [Tao Chen](https://eetchen.github.io/). I am also fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, and Dr. [Xin Chen](https://chenxin.tech/), Dr. [Chi Zhang](https://icoz69.github.io/), and Dr. [Gang Yu](https://www.skicyyu.org/) from Tencent. Before this, I received my bachelor’s degree in Electronic Information and Technology from Fudan University in 2022
 
-My long-term research goal is to develop vision-language systems that can *comprehend*, *reason*, and *envision* the physical world.
 
-📣 <font color="#dd0000">I am actively looking for researcher / Ph.D. opportunities.</font> Please check out my resume [here](resume/Sijin Chen's Resume.pdf).
+
+I work in the fields of deep learning and computer vision, with particular focuses on *large models*, *multi-modal learning* and *embodied AI*. My research pursues to develop robust and scalable general-purpose AI systems to solve complex problems.
+
+
+📣 <font color="#dd0000">I am actively looking for researcher / Ph.D. opportunities.</font> Please check out my resume [here](resume/Mingsheng's Resume.pdf for more information).
 
 # 🔥 News
 
