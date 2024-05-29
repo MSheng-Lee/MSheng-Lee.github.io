@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Mingsheng Li (李铭晟)"
-description              : "Final year master student at Fudan University. Focusing on 3D, vision and language."
+description              : "Second year master student at Fudan University. Focusing on VlMs and 3D."
 repository               : 
 google_scholar_stats_use_cdn : true
 
@@ -21,7 +21,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Sijin Chen (李铭晟)"
+  name             : "Mingsheng Li (李铭晟)"
   # avatar           : "images/android-chrome-512x512.png"
   avatar           : "images/bio.png"
   bio              : "Fudan University"
