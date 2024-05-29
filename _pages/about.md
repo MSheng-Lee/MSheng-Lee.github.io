@@ -78,7 +78,7 @@ Sijin Chen, Xin Chen, Chi Zhang, **<u>Mingsheng Li</u>**, Gang Yu, Hao Fei, Hong
 - *2022*. **Outstanding Graduate** of Fudan University.
 - *2020*. **2nd** Prize of China Undergraduate Mathematical Contest in Modeling.
 - *2020*. **STEM** (Science, Technology, Engineering, Mathematics) Scholarship.
-- *2019*. **1st** of Chinese Mathematics Competitions (Top 20).
+- *2019*. **1st** Prize of Chinese Mathematics Competitions (Top 20).
 - *2019*. **National Encouragement Scholarship**.
 
 
