@@ -21,10 +21,10 @@ Hi! My name is Mingsheng Li (Chinese: 李铭晟). I am currently a second-year M
 
 
 
-I work in the fields of deep learning and computer vision, with particular focuses on *large models*, *multi-modal learning* and *embodied AI*. My research pursues to develop robust and scalable general-purpose AI systems to solve complex problems.
+I work in the fields of deep learning and computer vision, with particular focuses on *large models*, *multi-modal learning* and *embodied AI*. My research pursues to develop robust and scalable general-purpose AI systems to solve complex problems. Please check out my resume [here](resume/Mingsheng's Resume.pdf) for more information
 
 
-📣 <font color="#dd0000">I am actively looking for researcher / Ph.D. opportunities.</font> Please check out my resume [here](resume/Mingsheng's Resume.pdf for more information).
+% 📣 <font color="#dd0000">I am actively looking for researcher / Ph.D. opportunities.</font>.
 
 # 🔥 News
 
