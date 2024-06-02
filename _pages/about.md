@@ -27,7 +27,7 @@ I work in the fields of deep learning and computer vision, with particular focus
 
 # 🔥 News
 
-- *Jun. 2024*. &nbsp;🚀🚀 Our [LGD](), a new method for lightweight model pre-training, is accepted to <font color="#dd0000">T-MM</font>.
+- *Jun. 2024*. &nbsp;🎉🎉 Our [LGD](), a new method for lightweight model pre-training, is accepted to <font color="#dd0000">T-MM</font>.
 - *Apr. 2024*. &nbsp;🎉🎉 Our state-of-the-art 3D dense captioning method [Vote2Cap-DETR++](https://arxiv.org/abs/2309.02999) [![](https://img.shields.io/github/stars/ch3cook-fdu/Vote2Cap-DETR?style=social)](https://github.com/ch3cook-fdu/Vote2Cap-DETR), is accepted to <font color="#dd0000">T-PAMI 2024</font>.
 - *Mar. 2024*. &nbsp;🚀🚀 We propose a new  [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench) paper is pre-printed.
 - *Feb. 2024*. &nbsp;🎉🎉 Our Large Language 3D Assistant, [LL3DA](https://arxiv.org/abs/2311.18651) [![](https://img.shields.io/github/stars/Open3DA/LL3DA?style=social)](https://github.com/Open3DA/LL3DA), is accepted to <font color="#dd0000">CVPR 2024</font>. 
