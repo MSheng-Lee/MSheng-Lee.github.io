@@ -38,7 +38,7 @@ I work in the fields of deep learning and computer vision, with particular focus
 
 # 📝 Recent Works
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-MM 2024</div><img src='images/lgd.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-MM 2024</div><img src='images/lgd.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>Lightweight Model Pre-training via Language Guided Knowledge Distillation</font>**]() \\
