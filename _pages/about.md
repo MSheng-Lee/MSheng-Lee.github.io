@@ -27,7 +27,7 @@ I work in the fields of deep learning and computer vision, with particular focus
 
 # 🔥 News
 
-- *Jun. 2024*. &nbsp;🎉🎉 Our [LGD](), a new method for lightweight model pre-training, is accepted to <font color="#dd0000">T-MM 2024</font>. [Code]() is released now!
+- *Jun. 2024*. &nbsp;🎉🎉 Our [LGD](), a new method for lightweight model pre-training, is accepted to <font color="#dd0000">T-MM 2024</font>. [Code](https://github.com/mZhenz/LGD) is released now!
 - *Apr. 2024*. &nbsp;🎉🎉 Our state-of-the-art 3D dense captioning method [Vote2Cap-DETR++](https://arxiv.org/abs/2309.02999) [![](https://img.shields.io/github/stars/ch3cook-fdu/Vote2Cap-DETR?style=social)](https://github.com/ch3cook-fdu/Vote2Cap-DETR), is accepted to <font color="#dd0000">T-PAMI 2024</font>.
 - *Mar. 2024*. &nbsp;🚀🚀 We propose a new  [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench) paper is pre-printed.
 - *Feb. 2024*. &nbsp;🎉🎉 Our Large Language 3D Assistant, [LL3DA](https://arxiv.org/abs/2311.18651) [![](https://img.shields.io/github/stars/Open3DA/LL3DA?style=social)](https://github.com/Open3DA/LL3DA), is accepted to <font color="#dd0000">CVPR 2024</font>. 
@@ -37,6 +37,20 @@ I work in the fields of deep learning and computer vision, with particular focus
 
 
 # 📝 Recent Works
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-MM 2024</div><img src='images/lgd.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**<font size=4>Lightweight Model Pre-training via Language Guided Knowledge Distillation</font>**]() \\
+**<font color="#dd0000">T-MM 2024</font>** \\
+**<u>Mingsheng Li</u>**, Lin Zhang, Mingzhen Zhu, Zilong Huang, Gang Yu, Jiayuan Fan, Tao Chen$^{\dagger}$
+
+[paper]() \| [arXiv]() \| [github](https://github.com/mZhenz/LGD)
+
+- Language-guided distillation enhances model pre-training.
+</div>
+</div>
+
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-PAMI 2024</div><img src='images/vote2cap-detr++ arXiv.png' alt="sym" width="100%"></div></div>
