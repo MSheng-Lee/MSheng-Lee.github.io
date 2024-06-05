@@ -30,8 +30,9 @@ author:
   pubmed           : 
   # googlescholar    : "https://scholar.google.com/citations?hl=en&user=chf7U2cAAAAJ&view_op=list_works&sortby=pubdate"
   email            : "limc22@m.fudan.edu.cn"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  researchgate     : "https://ieeexplore.ieee.org/author/376711206718844"
+  uri              : "https://ieeexplore.ieee.org/author/376711206718844"
+  ieee             : "https://ieeexplore.ieee.org/author/376711206718844"
   bitbucket        :
   codepen          :
   dribbble         :
