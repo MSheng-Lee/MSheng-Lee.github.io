@@ -38,6 +38,8 @@ I work in the fields of deep learning and computer vision, with particular focus
 
 # 📝 Recent Works
 
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-MM 2024</div><img src='images/lgd.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -45,7 +47,7 @@ I work in the fields of deep learning and computer vision, with particular focus
 **<font color="#dd0000">T-MM 2024</font>** \\
 **<u>Mingsheng Li</u>**, Lin Zhang, Mingzhen Zhu, Zilong Huang, Gang Yu, Jiayuan Fan, Tao Chen$^{\dagger}$
 
-[paper]() \| [arXiv]() \| [github](https://github.com/mZhenz/LGD)
+[paper](https://ieeexplore.ieee.org/document/10551493) \| [arXiv]() \| [github](https://github.com/mZhenz/LGD)
 
 - Language-guided distillation enhances model pre-training.
 </div>
@@ -77,6 +79,21 @@ Sijin Chen, Xin Chen, Chi Zhang, **<u>Mingsheng Li</u>**, Gang Yu, Hao Fei, Hong
 [project](https://ll3da.github.io/) \| [arXiv](https://arxiv.org/abs/2311.18651) \| [github](https://github.com/Open3DA/LL3DA) \| [youtube](https://www.youtube.com/watch?v=224JzkdHjfg)
 
 - Propose a Large Language 3D Assistant that responds to both visual interactions and textual instructions in complex 3D environments.
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='https://github.com/M3DBench/M3DBench.github.io/blob/main/static/images/teaser.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**<font size=4>M3DBench: Let's Instruct Large Models with Multi-modal 3D Prompts</font>**](https://arxiv.org/abs/2311.18651) \\
+**<font color="#dd0000">Under Review</font>** | [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench) \\
+**<u>Mingsheng Li</u>**, Xin Chen, Chi Zhang, Sijin Chen, Hongyuan Zhu, Fukun Yin, Gang Yu, Tao Chen$^{\dagger}$
+
+[project](https://m3dbench.github.io/) \| [arXiv](https://arxiv.org/abs/2312.10763) \| [github](https://github.com/OpenM3D/M3DBench) 
+
+- Propose a comprehensive 3D instruction-following dataset with support for interleaved multi-modal prompts.
+- Provide a new benchmark to assess large models across 3D vision-centric tasks.
 </div>
 </div>
 
