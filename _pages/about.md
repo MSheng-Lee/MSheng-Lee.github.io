@@ -38,7 +38,22 @@ I work in the fields of deep learning and computer vision, with particular focus
 
 # 📝 Recent Works
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/teaser.png' alt="sym" width="100%"></div></div>
+<!-- # <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/wi3d.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**<font size=4>WI3D: Weakly Incremental 3D Detection via visual Foundation Models</font>**]() \\
+**<font color="#dd0000">Under Review</font>** \\
+**<u>Mingsheng Li</u>**, Xin Chen, Chi Zhang, Sijin Chen, Hongyuan Zhu, Fukun Yin, Gang Yu, Tao Chen$^{\dagger}$
+
+[paper]()
+
+- Propose a comprehensive 3D instruction-following dataset with support for interleaved multi-modal prompts.
+- Provide a new benchmark to assess large models across 3D vision-centric tasks.
+</div>
+</div> -->
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/m3dbench.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>M3DBench: Let's Instruct Large Models with Multi-modal 3D Prompts</font>**](https://arxiv.org/abs/2311.18651) \\
