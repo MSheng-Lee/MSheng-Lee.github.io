@@ -83,7 +83,7 @@ Sijin Chen, Xin Chen, Chi Zhang, **<u>Mingsheng Li</u>**, Gang Yu, Hao Fei, Hong
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='https://github.com/M3DBench/M3DBench.github.io/blob/main/static/images/teaser.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/teaser.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**<font size=4>M3DBench: Let's Instruct Large Models with Multi-modal 3D Prompts</font>**](https://arxiv.org/abs/2311.18651) \\
