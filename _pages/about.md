@@ -38,19 +38,19 @@ I work in the fields of deep learning and computer vision, with particular focus
 
 # 📝 Recent Works
 
-<!-- # <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/wi3d.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/wi3d.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**<font size=4>WI3D: Weakly Incremental 3D Detection via visual Foundation Models</font>**]() \\
+[**<font size=4>WI3D: Weakly Incremental 3D Detection via visual Foundation Models</font>**](https://github.com/MSheng-Lee/MSheng-Lee.github.io/blob/main/papers/WI3D__Weakly_Incremental_3D_Detection_via_Foundation_Models.pdf) \\
 **<font color="#dd0000">Under Review</font>** \\
-**<u>Mingsheng Li</u>**, Xin Chen, Chi Zhang, Sijin Chen, Hongyuan Zhu, Fukun Yin, Gang Yu, Tao Chen$^{\dagger}$
+**<u>Mingsheng Li</u>**, Sijin Chen, Shengji Tang, Hongyuan Zhu, Yanyan Fang, Xin Chen, Zhuoyuan Li, Fukun Yin, Gang Yu, Tao Chen
 
-[paper]()
+[paper](https://github.com/MSheng-Lee/MSheng-Lee.github.io/blob/main/papers/WI3D__Weakly_Incremental_3D_Detection_via_Foundation_Models.pdf)
 
-- Propose a comprehensive 3D instruction-following dataset with support for interleaved multi-modal prompts.
-- Provide a new benchmark to assess large models across 3D vision-centric tasks.
+- Introducing new categories to well-trained 3D detectors with 2D foundation models.
+
 </div>
-</div> -->
+</div>
 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/m3dbench.png' alt="sym" width="100%"></div></div>
@@ -58,7 +58,7 @@ I work in the fields of deep learning and computer vision, with particular focus
 
 [**<font size=4>M3DBench: Let's Instruct Large Models with Multi-modal 3D Prompts</font>**](https://arxiv.org/abs/2311.18651) \\
 **<font color="#dd0000">Under Review</font>** | [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench) \\
-**<u>Mingsheng Li</u>**, Xin Chen, Chi Zhang, Sijin Chen, Hongyuan Zhu, Fukun Yin, Gang Yu, Tao Chen$^{\dagger}$
+**<u>Mingsheng Li</u>**, Xin Chen, Chi Zhang, Sijin Chen, Hongyuan Zhu, Fukun Yin, Gang Yu, Tao Chen
 
 [project](https://m3dbench.github.io/) \| [arXiv](https://arxiv.org/abs/2312.10763) \| [github](https://github.com/OpenM3D/M3DBench) 
 
@@ -73,7 +73,7 @@ I work in the fields of deep learning and computer vision, with particular focus
 
 [**<font size=4>Lightweight Model Pre-training via Language Guided Knowledge Distillation</font>**]() \\
 **<font color="#dd0000">T-MM 2024</font>** \\
-**<u>Mingsheng Li</u>**, Lin Zhang, Mingzhen Zhu, Zilong Huang, Gang Yu, Jiayuan Fan, Tao Chen$^{\dagger}$
+**<u>Mingsheng Li</u>**, Lin Zhang, Mingzhen Zhu, Zilong Huang, Gang Yu, Jiayuan Fan, Tao Chen
 
 [paper](https://ieeexplore.ieee.org/document/10551493) \| [arXiv](https://arxiv.org/abs/2406.11689) \| [github](https://github.com/mZhenz/LGD)
 
@@ -88,7 +88,7 @@ I work in the fields of deep learning and computer vision, with particular focus
 
 [**<font size=4>Vote2Cap-DETR++: Decoupling Localization and Describing for End-to-End 3D Dense Captioning</font>**](https://arxiv.org/abs/2309.02999) \\
 **<font color="#dd0000">T-PAMI 2024</font>** | [![](https://img.shields.io/github/stars/ch3cook-fdu/Vote2Cap-DETR?style=social)](https://github.com/ch3cook-fdu/Vote2Cap-DETR) \\
-Sijin Chen, Hongyuan Zhu, **<u>Mingsheng Li</u>**, Xin Chen, Peng Guo, Yinjie Lei, Gang Yu, Taihao Li, Tao Chen$^{\dagger}$
+Sijin Chen, Hongyuan Zhu, **<u>Mingsheng Li</u>**, Xin Chen, Peng Guo, Yinjie Lei, Gang Yu, Taihao Li, Tao Chen
 
 [paper](https://ieeexplore.ieee.org/abstract/document/10496863/) \| [arXiv](https://arxiv.org/abs/2309.02999) \| [github](https://github.com/ch3cook-fdu/Vote2Cap-DETR)
 
@@ -102,7 +102,7 @@ Sijin Chen, Hongyuan Zhu, **<u>Mingsheng Li</u>**, Xin Chen, Peng Guo, Yinjie Le
 
 [**<font size=4>LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning</font>**](https://arxiv.org/abs/2311.18651) \\
 **<font color="#dd0000">CVPR 2024</font>** | [![](https://img.shields.io/github/stars/Open3DA/LL3DA?style=social)](https://github.com/Open3DA/LL3DA) \\
-Sijin Chen, Xin Chen, Chi Zhang, **<u>Mingsheng Li</u>**, Gang Yu, Hao Fei, Hongyuan Zhu, Jiayuan Fan, Tao Chen$^{\dagger}$
+Sijin Chen, Xin Chen, Chi Zhang, **<u>Mingsheng Li</u>**, Gang Yu, Hao Fei, Hongyuan Zhu, Jiayuan Fan, Tao Chen
 
 [project](https://ll3da.github.io/) \| [arXiv](https://arxiv.org/abs/2311.18651) \| [github](https://github.com/Open3DA/LL3DA) \| [youtube](https://www.youtube.com/watch?v=224JzkdHjfg)
 
