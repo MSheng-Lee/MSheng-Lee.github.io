@@ -27,9 +27,10 @@ I work in the fields of deep learning and computer vision, with particular focus
 
 # 🔥 News
 
+- *Jun. 2024*. &nbsp;🚀🚀 We release [WI3D]([https://arxiv.org/abs/2312.10763](https://github.com/MSheng-Lee/MSheng-Lee.github.io/blob/main/papers/WI3D__Weakly_Incremental_3D_Detection_via_Foundation_Models.pdf)), the first approach that can generalize well-trained 3D detectors to learn novel classes with the aid of foundation models.
 - *Jun. 2024*. &nbsp;🎉🎉 Our [LGD](https://arxiv.org/abs/2406.11689), a new method for lightweight model pre-training, is accepted to <font color="#dd0000">T-MM 2024</font>. [Code](https://github.com/mZhenz/LGD) is released now!
 - *Apr. 2024*. &nbsp;🎉🎉 Our state-of-the-art 3D dense captioning method [Vote2Cap-DETR++](https://arxiv.org/abs/2309.02999) [![](https://img.shields.io/github/stars/ch3cook-fdu/Vote2Cap-DETR?style=social)](https://github.com/ch3cook-fdu/Vote2Cap-DETR), is accepted to <font color="#dd0000">T-PAMI 2024</font>.
-- *Mar. 2024*. &nbsp;🚀🚀 We propose a new  [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench) paper is pre-printed.
+- *Mar. 2024*. &nbsp;🚀🚀 We release [M3DBench](https://arxiv.org/abs/2312.10763) [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench), a new 3D instruction-following dataset with interleaved multi-modal prompts and a new benchmark to assess large models across 3D vision-centric tasks.
 - *Feb. 2024*. &nbsp;🎉🎉 Our Large Language 3D Assistant, [LL3DA](https://arxiv.org/abs/2311.18651) [![](https://img.shields.io/github/stars/Open3DA/LL3DA?style=social)](https://github.com/Open3DA/LL3DA), is accepted to <font color="#dd0000">CVPR 2024</font>. 
 
 
