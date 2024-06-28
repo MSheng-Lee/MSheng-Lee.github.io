@@ -42,7 +42,7 @@ I work in the fields of deep learning and computer vision, with particular focus
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='images/wi3d.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**<font size=4>WI3D: Weakly Incremental 3D Detection via visual Foundation Models</font>**](papers/WI3D__Weakly_Incremental_3D_Detection_via_vision_Foundation_Models.pdf) \\
+[**<font size=4>WI3D: Weakly Incremental 3D Detection via Vision Foundation Models</font>**](papers/WI3D__Weakly_Incremental_3D_Detection_via_vision_Foundation_Models.pdf) \\
 **<font color="#dd0000">Under Review</font>** \\
 **<u>Mingsheng Li</u>**, Sijin Chen, Shengji Tang, Hongyuan Zhu, Yanyan Fang, Xin Chen, Zhuoyuan Li, Fukun Yin, Gang Yu, Tao Chen
 
