@@ -72,7 +72,7 @@ I work in the fields of deep learning and computer vision, with particular focus
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">T-MM 2024</div><img src='images/lgd.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**<font size=4>Lightweight Model Pre-training via Language Guided Knowledge Distillation</font>**]() \\
+[**<font size=4>Lightweight Model Pre-training via Language Guided Knowledge Distillation</font>**](https://arxiv.org/abs/2406.11689) \\
 **<font color="#dd0000">T-MM 2024</font>** \\
 **<u>Mingsheng Li</u>**, Lin Zhang, Mingzhen Zhu, Zilong Huang, Gang Yu, Jiayuan Fan, Tao Chen
 
