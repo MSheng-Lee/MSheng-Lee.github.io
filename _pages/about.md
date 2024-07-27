@@ -142,6 +142,7 @@ Sijin Chen, Xin Chen, Chi Zhang, **<u>Mingsheng Li</u>**, Gang Yu, Hao Fei, Hong
 
 
 
-<!-- # 💻 Internships
+# 💻 Internships
 
-- *2020.07 - 2020.10*. Huawei Technologies Shanghai R&D Center, Shanghai, China. -->
+- *2023.07 - 2023.12*. Intern Researcher, Tencent PCG, Shanghai, China.
+- *2024.01 - Present*. Shanghai AI Lab, Shanghai, China.
