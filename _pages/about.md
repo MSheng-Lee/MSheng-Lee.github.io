@@ -144,5 +144,5 @@ Sijin Chen, Xin Chen, Chi Zhang, **<u>Mingsheng Li</u>**, Gang Yu, Hao Fei, Hong
 
 # 💻 Internships
 
-- *2023.07 - 2023.12*. Intern Researcher, Tencent PCG, Shanghai, China.
 - *2024.01 - Present*. Intern Researcher, Shanghai AI Lab, Shanghai, China.
+- *2023.07 - 2023.12*. Intern Researcher, Tencent PCG, Shanghai, China.
