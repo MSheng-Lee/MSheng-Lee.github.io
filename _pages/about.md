@@ -23,9 +23,9 @@ Hi! My name is Mingsheng Li (中文名: 李铭晟). I am currently a second-year
 
 I work in the fields of deep learning and computer vision, with particular focuses on *large models*, *multi-modal learning* and *embodied AI*. My research pursues to develop robust and scalable general-purpose AI systems to solve complex problems. 
 
-📣 <font color="#dd0000">I am actively looking for researcher / Ph.D. opportunities.</font> Please check out my resume [here](resume/Mingsheng Li's Resume.pdf).
+📣 <font color="#dd0000">I am actively looking for researcher / Ph.D. opportunities.</font> Please check out my resume [here]().
 
-<!-- 📣 <font color="#dd0000">I am actively looking for researcher / Ph.D. opportunities.</font> -->
+<!-- 📣 <font color="#dd0000">I am actively looking for researcher / Ph.D. opportunities.</font> Please check out my resume [here](resume/Mingsheng Li's Resume.pdf). </font> -->
 
 # 🔥 News
 - *Jul. 2024*. &nbsp;🎉🎉 [M3DBench](https://arxiv.org/abs/2312.10763) is accepted to ECCV 2024!
