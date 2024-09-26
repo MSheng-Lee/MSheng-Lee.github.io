@@ -17,15 +17,15 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! My name is Mingsheng Li (中文名: 李铭晟). I am currently a second-year Master's student in Artificial Intelligence at Fudan University, advised by Prof. [Tao Chen](https://eetchen.github.io/). I am also fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, Dr. [Gang Yu](https://www.skicyyu.org/), Dr. [Xin Chen](https://chenxin.tech/), and Dr. [Chi Zhang](https://icoz69.github.io/) from Tencent, and Dr. [Bo Zhang](https://bobrown.github.io/boZhang.github.io/) from Shanghai AI Lab. Before this, I received my bachelor’s degree in Electronic Engineering from Fudan University in 2022.
+Hi! My name is Mingsheng Li (中文名: 李铭晟). I am currently a final-year Master's student in Artificial Intelligence at Fudan University, advised by Prof. [Tao Chen](https://eetchen.github.io/). I am also fortunate to work closely with Dr. [Hongyuan Zhu](https://hongyuanzhu.github.io/) from A*STAR, Singapore, Dr. [Gang Yu](https://www.skicyyu.org/), Dr. [Xin Chen](https://chenxin.tech/), and Dr. [Chi Zhang](https://icoz69.github.io/) from Tencent, and Dr. [Bo Zhang](https://bobrown.github.io/boZhang.github.io/) from Shanghai AI Lab. Before this, I received my bachelor’s degree in Electronic Engineering from Fudan University in 2022.
 
 
 
 I work in the fields of deep learning and computer vision, with particular focuses on *large models*, *multi-modal learning* and *embodied AI*. My research pursues to develop robust and scalable general-purpose AI systems to solve complex problems. 
 
-📣 <font color="#dd0000">I am actively looking for researcher / Ph.D. opportunities.</font> Please check out my resume [here]().
+<!-- 📣 <font color="#dd0000">I am actively looking for researcher / Ph.D. opportunities.</font> Please check out my resume [here](). </font> -->
 
-<!-- 📣 <font color="#dd0000">I am actively looking for researcher / Ph.D. opportunities.</font> Please check out my resume [here](resume/Mingsheng Li's Resume.pdf). </font> -->
+📣 <font color="#dd0000">I am actively looking for researcher / Ph.D. opportunities.</font> Please check out my resume [here](resume/Mingsheng Li's Resume.pdf).
 
 # 🔥 News
 - *Sep. 2024*. &nbsp;🎉🎉 One Paper (3DET-Mamba) is accepted to NeurIPS 2024!
