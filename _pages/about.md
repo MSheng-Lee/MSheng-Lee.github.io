@@ -37,7 +37,6 @@ I work in the fields of deep learning and computer vision, with particular focus
 - *Feb. 2024*. &nbsp;🎉🎉 Our Large Language 3D Assistant, [LL3DA](https://arxiv.org/abs/2311.18651) [![](https://img.shields.io/github/stars/Open3DA/LL3DA?style=social)](https://github.com/Open3DA/LL3DA), is accepted to <font color="#dd0000">CVPR 2024</font>. 
 
 
-2024.07 One Paper (RegTTA3D) is accepted by ECCV 2024.
 
 
 
