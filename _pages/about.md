@@ -28,7 +28,8 @@ I work in the fields of deep learning and computer vision, with particular focus
 <!-- 📣 <font color="#dd0000">I am actively looking for researcher / Ph.D. opportunities.</font> Please check out my resume [here](resume/Mingsheng Li's Resume.pdf). </font> -->
 
 # 🔥 News
-- *Jul. 2024*. &nbsp;🎉🎉 [M3DBench](https://arxiv.org/abs/2312.10763) is accepted to ECCV 2024!
+- *Jul. 2024*. &nbsp;🎉🎉 One Paper (3DET-Mamba) is accepted by NeurIPS 2024!
+- *Jul. 2024*. &nbsp;🎉🎉 [M3DBench](https://arxiv.org/abs/2312.10763) is accepted to ECCV 2024.
 - *Jun. 2024*. &nbsp;🚀🚀 We release [WI3D](papers/WI3D__Weakly_Incremental_3D_Detection_via_vision_Foundation_Models.pdf), the first approach that can generalize well-trained 3D detectors to learn novel classes with the aid of foundation models.
 - *Jun. 2024*. &nbsp;🎉🎉 Our [LGD](https://arxiv.org/abs/2406.11689), a new method for lightweight model pre-training, is accepted to <font color="#dd0000">T-MM 2024</font>. [Code](https://github.com/mZhenz/LGD) is released now!
 - *Apr. 2024*. &nbsp;🎉🎉 Our state-of-the-art 3D dense captioning method [Vote2Cap-DETR++](https://arxiv.org/abs/2309.02999) [![](https://img.shields.io/github/stars/ch3cook-fdu/Vote2Cap-DETR?style=social)](https://github.com/ch3cook-fdu/Vote2Cap-DETR), is accepted to <font color="#dd0000">T-PAMI 2024</font>.
@@ -36,6 +37,7 @@ I work in the fields of deep learning and computer vision, with particular focus
 - *Feb. 2024*. &nbsp;🎉🎉 Our Large Language 3D Assistant, [LL3DA](https://arxiv.org/abs/2311.18651) [![](https://img.shields.io/github/stars/Open3DA/LL3DA?style=social)](https://github.com/Open3DA/LL3DA), is accepted to <font color="#dd0000">CVPR 2024</font>. 
 
 
+2024.07 One Paper (RegTTA3D) is accepted by ECCV 2024.
 
 
 
