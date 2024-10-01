@@ -64,10 +64,9 @@ I work in the fields of deep learning and computer vision, with particular focus
 **<font color="#dd0000">ECCV 2024</font>** | [![](https://img.shields.io/github/stars/OpenM3D/M3DBench?style=social)](https://github.com/OpenM3D/M3DBench) \\
 **<u>Mingsheng Li</u>**, Xin Chen, Chi Zhang, Sijin Chen, Hongyuan Zhu, Fukun Yin, Gang Yu, Tao Chen
 
-[project](https://m3dbench.github.io/) \| [arXiv](https://arxiv.org/abs/2312.10763)  
+[project](https://m3dbench.github.io/) \| [arXiv](https://arxiv.org/abs/2312.10763) \| [github](https://github.com/OpenM3D/M3DBench)
 
 - Propose a comprehensive 3D instruction-following dataset with support for interleaved multi-modal prompts.
-- Provide a new benchmark to assess large models across 3D vision-centric tasks.
 </div>
 </div>
 
