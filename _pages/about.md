@@ -117,7 +117,7 @@ Sijin Chen, Xin Chen, Chi Zhang, **<u>Mingsheng Li</u>**, Gang Yu, Hao Fei, Hong
 
 
 # 🥇 Awards and Scholarships
-
+- *2024*. **National Scholarship** (rank 1/244).
 - *2023*. **2nd** Prize of Graduate Academic Scholarship. 
 - *2022*. **Outstanding Graduate** of Fudan University.
 - *2020*. **2nd** Prize of China Undergraduate Mathematical Contest in Modeling.
@@ -141,7 +141,9 @@ Sijin Chen, Xin Chen, Chi Zhang, **<u>Mingsheng Li</u>**, Gang Yu, Hao Fei, Hong
 - *Oct. 2023*. Winner presentation of the Scan2Cap Challenge in the 3rd Language for 3D Scene Workshop at **<font color="#dd0000">ICCV 2023</font>**. \[[talk](https://www.youtube.com/watch?v=RLrdi-Yhn1o) \| [slides](presentation/[ICCV 2023 workshop talk] Vote2Cap-DETR.pdf)\]
 - *Jun. 2023*. Paper presentation for "*End-to-End 3D Dense Captioning with Vote2Cap-DETR*" at the Workshop for Advances in 3D Vision, **<font color="#dd0000">VALSE 2023</font>**, Wuxi, China. -->
 
+# 💻 Internships
 
+- *2024.01 - Present*. Intern Researcher, Shanghai AI Lab, Shanghai, China.
 
 <!-- # # 💻 Internships
 
