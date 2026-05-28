@@ -1,0 +1,961 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mingsheng Li | Homepage</title>
+  <meta name="description" content="Mingsheng Li academic homepage." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #64748b;
+      --line: #e2e8f0;
+      --accent: #2563eb;
+      --accent-soft: #eff4ff;
+      --danger: #cb2032;
+      --radius: 14px;
+      --shadow: 0 4px 24px rgba(15, 23, 42, 0.06);
+    }
+    body.dark-mode {
+      --bg: #0f172a;
+      --card: #1e293b;
+      --text: #e5e7eb;
+      --muted: #94a3b8;
+      --line: #334155;
+      --accent: #60a5fa;
+      --accent-soft: #1e293b;
+      --shadow: 0 4px 24px rgba(0, 0, 0, 0.3);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; } body { margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      line-height: 1.7;
+      background:
+        radial-gradient(600px 400px at 85% -80px, rgba(99, 102, 241, 0.14), transparent 70%),
+        radial-gradient(500px 350px at 15% 20%, rgba(37, 99, 235, 0.08), transparent 65%),
+        radial-gradient(400px 300px at 70% 60%, rgba(139, 92, 246, 0.06), transparent 60%),
+        radial-gradient(350px 250px at -5% 80%, rgba(6, 182, 212, 0.05), transparent 60%),
+        linear-gradient(175deg, #f8faff 0%, #f0f4ff 30%, #faf5ff 60%, #f5f7fb 100%);
+    }
+    body.dark-mode {
+      background:
+        radial-gradient(650px 400px at 85% -80px, rgba(99, 102, 241, 0.18), transparent 70%),
+        radial-gradient(550px 380px at 15% 20%, rgba(37, 99, 235, 0.12), transparent 65%),
+        radial-gradient(450px 320px at 70% 60%, rgba(139, 92, 246, 0.1), transparent 60%),
+        radial-gradient(380px 270px at -5% 80%, rgba(6, 182, 212, 0.08), transparent 60%),
+        linear-gradient(175deg, #080d1a 0%, #0c1225 30%, #0f0d1f 60%, #0f172a 100%);
+    }
+    a { color: #4a60bb; text-decoration: none; }
+    .container { width: min(1100px, 94%); margin: 0 auto; }
+    .glass {
+      background: rgba(255, 255, 255, 0.82);
+      backdrop-filter: blur(16px);
+      border: 1px solid var(--line);
+      box-shadow: var(--shadow);
+    }
+    body.dark-mode .glass { background: rgba(15, 23, 42, 0.85); }
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 999;
+      border-bottom: 1px solid var(--line);
+    }
+    .topbar-inner {
+      min-height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 18px;
+    }
+    .logo-dot { display: none; }
+    .menu {
+      position: relative;
+      display: flex;
+      gap: 6px;
+      flex-wrap: wrap;
+      padding: 5px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.92);
+      box-shadow: 0 8px 22px rgba(15, 23, 42, 0.08);
+    }
+    body.dark-mode .menu { background: #0b1220; }
+    .menu-indicator {
+      position: absolute;
+      left: 0;
+      top: 5px;
+      height: calc(100% - 10px);
+      border-radius: 999px;
+      background: var(--accent-soft);
+      transition: transform .25s ease, width .25s ease, opacity .2s ease;
+      pointer-events: none;
+      opacity: 0;
+    }
+    .menu a {
+      position: relative;
+      z-index: 1;
+      color: var(--muted);
+      font-size: 13.5px;
+      font-weight: 500;
+      padding: 7px 14px;
+      border-radius: 999px;
+      transition: color .2s;
+      background: transparent;
+    }
+    .menu a:hover, .menu a.active { color: var(--accent); background: transparent; }
+    .theme-switch {
+      margin-left: auto;
+      display: inline-flex;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      overflow: hidden;
+      background: rgba(255, 255, 255, 0.92);
+      box-shadow: 0 8px 20px rgba(15, 23, 42, 0.08);
+    }
+    body.dark-mode .theme-switch { background: #0b1220; }
+    .theme-btn {
+      border: none;
+      background: transparent;
+      color: var(--muted);
+      padding: 7px 12px;
+      font-size: 13px;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .theme-btn.active {
+      color: var(--accent);
+      background: var(--accent-soft);
+      font-weight: 700;
+    }
+    body.dark-mode a { color: #9fb8ff; }
+
+    section {
+      padding: 32px 0;
+      border-bottom: 1px solid var(--line);
+      scroll-margin-top: 96px;
+    }
+    h1 { margin: 12px 0 6px; font-size: clamp(36px, 5vw, 54px); line-height: 1.06; }
+    h2 { margin: 0 0 18px; font-size: 26px; letter-spacing: -0.01em; color: var(--text); }
+    .sec-title { position: relative; display: inline-block; padding-bottom: 8px; }
+    .sec-title::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 32px;
+      height: 2px;
+      border-radius: 2px;
+      background: var(--text);
+    }
+    .sec-title i { margin-right: 8px; color: var(--text); opacity: 0.6; }
+    .muted { color: var(--muted); }
+    .me-flag { font-weight: 700; text-decoration: underline; text-underline-offset: 2px; }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.4fr 1fr;
+      gap: 16px;
+      align-items: start;
+      border-radius: calc(var(--radius) + 4px);
+      padding: 18px;
+    }
+    .hero-left, .hero-right {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: var(--card);
+      box-shadow: var(--shadow);
+      padding: 24px;
+    }
+    .hero-right { display: flex; align-self: start; overflow: hidden; }
+    body.dark-mode .hero-left, body.dark-mode .hero-right, body.dark-mode .news-card,
+    body.dark-mode .contact-card, body.dark-mode .pub-card, body.dark-mode .exp-item,
+    body.dark-mode .gallery-row, body.dark-mode .media-card, body.dark-mode .pub-media-wrap {
+      background: var(--card);
+      border-color: var(--line);
+    }
+    .intro-head {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 14px;
+      margin-bottom: 10px;
+    }
+    .avatar {
+      width: 240px;
+      height: 240px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #fff;
+      box-shadow: 0 12px 32px rgba(37, 99, 235, 0.12);
+      background: #e6edf9;
+    }
+    .intro-name h1 {
+      margin: 0 0 4px;
+      font-family: "Times New Roman", Times, serif;
+      font-size: clamp(30px, 3.7vw, 44px);
+      line-height: 1.05;
+      letter-spacing: -0.015em;
+      color: #0f172a;
+    }
+    body.dark-mode .intro-name h1 { color: #f3f4f6; }
+    .intro-name { width: 100%; text-align: center; display: grid; justify-items: center; }
+    .intro-head .intro-name p {
+      width: 100%;
+      margin: 0 auto;
+      text-align: center !important;
+      justify-self: center;
+      display: block;
+    }
+    .intro-sub { margin: 0; font-size: 20px; color: #4a60bb; font-weight: 600; font-style: normal; }
+    .intro-org { margin: 2px 0 0; font-size: 20px; color: #4a60bb; font-weight: 700; display: block; font-style: normal; }
+    .hero-left p { margin: 8px 0; font-size: 17px; line-height: 1.62; text-align: left; }
+    .focus-highlight { color: inherit; font-weight: 700; }
+    .inline-link {
+      color: inherit;
+      border-bottom: 1px solid #cbd5e1;
+      transition: color .2s, border-color .2s;
+    }
+    .inline-link:hover {
+      color: #4a60bb;
+      border-bottom-color: #4a60bb;
+    }
+    .social-wrap { margin-top: 14px; display: grid; justify-items: center; gap: 6px; }
+    .social-row { display: flex; justify-content: center; gap: 10px; margin-top: 0; flex-wrap: wrap; }
+    .icon-btn {
+      height: 42px;
+      border-radius: 999px;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0 14px;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: #4a60bb;
+      box-shadow: 0 8px 18px rgba(15, 23, 42, 0.09);
+      transition: .2s;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .icon-btn:hover { transform: translateY(-2px); color: #2f6bff; border-color: #bfd4ff; }
+    body.dark-mode .icon-btn {
+      background: #0b1220;
+      color: #9fb8ff;
+      border-color: var(--line);
+    }
+
+    .news-card {
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      background: #fff;
+      padding: 14px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .news-viewport {
+      flex: 1;
+      min-height: 0;
+      max-height: 100%;
+      overflow-y: auto;
+      overflow-x: hidden;
+      border: 1px dashed #dce7f8;
+      border-radius: 10px;
+      background: linear-gradient(180deg, #f8fbff, #fff 18%, #fff 82%, #f8fbff);
+      position: relative;
+      cursor: ns-resize;
+    }
+    body.dark-mode .news-viewport {
+      background: linear-gradient(180deg, #0f172a, #1e293b 18%, #1e293b 82%, #0f172a);
+      border-color: #334155;
+    }
+    .news-track {
+      list-style: none;
+      margin: 0;
+      padding: 10px 12px;
+      display: grid;
+      gap: 0;
+    }
+    .news-item { padding: 9px 0; border-bottom: 1px dashed #e5eaf3; font-size: 15px; color: #1f2937; }
+    body.dark-mode .news-item { color: #d1d5db; border-bottom-color: #374151; }
+    .news-item b { font-family: inherit; }
+    .venue-red { color: #cb2032; font-weight: 700; }
+    .collab-list { margin: 0; padding-left: 20px; color: #334155; }
+    .collab-list li { margin: 8px 0; line-height: 1.62; font-size: 18px; }
+    body.dark-mode .collab-list li { color: #f3f4f6; }
+    .news-item img { vertical-align: middle; margin: 0 2px; }
+    .news-viewport::-webkit-scrollbar { width: 8px; }
+    .news-viewport::-webkit-scrollbar-track { background: rgba(148, 163, 184, 0.15); border-radius: 999px; }
+    .news-viewport::-webkit-scrollbar-thumb { background: rgba(71, 85, 105, 0.5); border-radius: 999px; }
+
+    .pub-list { display: grid; gap: 18px; margin-top: 8px; }
+    .pub-card {
+      display: grid;
+      grid-template-columns: 280px 1fr;
+      gap: 16px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+      padding: 16px;
+      box-shadow: var(--shadow);
+      transition: transform .25s ease, box-shadow .25s ease;
+    }
+    .pub-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 32px rgba(15, 23, 42, 0.1);
+    }
+    .pub-media-wrap {
+      position: relative;
+      border: 1px solid #d6e1f2;
+      border-radius: 10px;
+      overflow: hidden;
+      min-height: 190px;
+      background: #fff;
+    }
+    .pub-media { width: 100%; height: 100%; object-fit: contain; display: block; background: #fff; }
+    .venue-badge {
+      position: absolute;
+      left: 8px;
+      top: 8px;
+      padding: 3px 10px;
+      border-radius: 4px;
+      color: #fff;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+    .venue-badge.badge-conf { background: #be185d; }
+    .venue-badge.badge-report { background: #2563eb; }
+    .venue-badge.badge-preprint { background: #6366f1; }
+    .venue-badge.badge-journal { background: #059669; }
+    .pub-title { margin: 0 0 4px; font-size: 18px; line-height: 1.32; color: var(--text); text-decoration: none; font-weight: 700; }
+    body.dark-mode .pub-title, body.dark-mode .pub-links, body.dark-mode .pub-links a { color: var(--accent); }
+    .pub-venue-line { margin: 0 0 4px; font-weight: 700; font-size: 14px; font-style: italic; color: var(--text); }
+    .pub-authors { margin: 0 0 6px; color: #334155; font-size: 15px; line-height: 1.6; }
+    .pub-links { margin: 0 0 6px; display: flex; gap: 6px; flex-wrap: wrap; }
+    .pub-links a { color: #1e3a8a; text-decoration: none; padding: 3px 10px; border: 1px solid var(--line); border-radius: 4px; font-size: 13px; font-weight: 600; transition: all .2s; }
+    .pub-links a:hover { background: var(--accent-soft); color: var(--accent); border-color: var(--accent); }
+    .pub-links .tbd { color: var(--muted); font-size: 13px; padding: 3px 10px; border: 1px dashed var(--line); border-radius: 4px; font-style: italic; }
+    .pub-bullets { margin: 0; padding-left: 18px; font-size: 15px; line-height: 1.6; }
+    .pub-bullets li { margin: 3px 0; }
+
+    /* Publication group headers */
+    .pub-group-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 0;
+      margin-top: 12px;
+      cursor: pointer;
+      user-select: none;
+      border-bottom: 2px solid var(--line);
+    }
+    .pub-group-header:first-child { margin-top: 0; }
+    .pub-group-header h3 {
+      margin: 0;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--text);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .pub-group-header .toggle-icon {
+      font-size: 12px;
+      color: var(--muted);
+      transition: transform .3s;
+    }
+    .pub-group-header.collapsed .toggle-icon {
+      transform: rotate(-90deg);
+    }
+    .pub-group-content {
+      overflow: hidden;
+      transition: max-height .4s ease;
+    }
+    .pub-group-content.collapsed {
+      max-height: 0 !important;
+    }
+
+    .gallery-wrap { display: grid; gap: 10px; }
+    .gallery-row { overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: #fff; box-shadow: var(--shadow); padding: 8px; }
+    .gallery-track { display: grid; grid-auto-flow: column; grid-auto-columns: minmax(240px, 1fr); gap: 8px; width: max-content; animation: glide 34s linear infinite; }
+    .gallery-track.reverse { animation-direction: reverse; animation-duration: 38s; }
+    @keyframes glide { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+    .media-card { border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: #fff; }
+    .media-card video, .media-card img { width: 100%; height: 150px; object-fit: cover; display: block; background: #e2e8f0; }
+    .media-card p { margin: 0; padding: 8px 10px; font-size: 12px; color: #334155; }
+
+    .exp-timeline {
+      position: relative;
+      padding-left: 40px;
+      display: grid;
+      gap: 12px;
+    }
+    .exp-timeline::before {
+      content: "";
+      position: absolute;
+      left: 18px;
+      top: 8px;
+      bottom: 8px;
+      width: 2px;
+      background: linear-gradient(#9fb6e8, #d4dff4);
+    }
+    .exp-item {
+      position: relative;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fff;
+      box-shadow: var(--shadow);
+      padding: 18px;
+      display: grid;
+      grid-template-columns: 130px 1fr;
+      gap: 14px;
+      transition: transform .25s ease, box-shadow .25s ease;
+    }
+    .exp-item:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px rgba(15, 23, 42, 0.1);
+    }
+    .exp-item::before {
+      content: "";
+      position: absolute;
+      left: -30px;
+      top: 26px;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      background: #fff;
+      border: 2px solid #5b7fd8;
+    }
+    .exp-logo-wrap {
+      display: grid;
+      place-items: center;
+      border: 1px solid #e0e8f6;
+      border-radius: 10px;
+      min-height: 82px;
+      background: #f8fbff;
+      color: #37539f;
+      font-weight: 700;
+    }
+    .exp-logo { max-width: 100%; max-height: 70px; object-fit: contain; }
+    .exp-head { display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; }
+    .exp-role { font-weight: 700; }
+    .exp-time { color: var(--muted); font-size: 14px; }
+
+    .contact-card { border: 1px solid var(--line); border-radius: var(--radius); background: #fff; box-shadow: var(--shadow); padding: 16px; }
+    body.dark-mode .contact-item, body.dark-mode .pub-authors, body.dark-mode .pub-bullets,
+    body.dark-mode .media-card p { color: #cbd5e1; }
+    footer { text-align: center; color: var(--muted); padding: 28px 0 36px; border-top: 1px solid var(--line); font-size: 14px; }
+
+    @media (max-width: 1060px) {
+      .pub-card { grid-template-columns: 1fr; }
+      .pub-media-wrap { min-height: 240px; }
+    }
+    @media (max-width: 920px) {
+      .hero, .exp-item { grid-template-columns: 1fr; }
+      .menu { display: none; }
+      .avatar { width: 200px; height: 200px; }
+      .hero-left p { font-size: 16px; }
+      .news-viewport { max-height: 280px; }
+      .exp-timeline { padding-left: 0; }
+      .exp-timeline::before, .exp-item::before { display: none; }
+      section { padding: 24px 0; }
+    }
+
+    /* Scroll animations */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar glass">
+    <div class="container topbar-inner">
+      <div class="logo-dot" aria-label="logo"></div>
+      <nav class="menu" id="menu">
+        <span class="menu-indicator" id="menuIndicator"></span>
+        <a href="#home">Home</a>
+        <a href="#collaborations">Collaborations</a>
+        <a href="#publications">Publications</a>
+        <!-- <a href="#gallery">Gallery</a> -->
+        <a href="#experiences">Experiences</a>
+        <a href="#awards">Awards</a>
+        <a href="#services">Services</a>
+      </nav>
+      <div class="theme-switch" aria-label="Theme switch">
+        <button class="theme-btn" id="lightBtn" type="button">Light</button>
+        <button class="theme-btn" id="darkBtn" type="button">Dark</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="container hero glass">
+        <article class="hero-left">
+          <div class="intro-head">
+            <img class="avatar" src="./assets/photo/IMG_5471.JPG" alt="Mingsheng Li photo" />
+            <div class="intro-name">
+              <h1>Mingsheng Li</h1>
+              <p class="intro-sub">AI Researcher @ Qwen Team, Alibaba Group</p>
+              <p class="intro-org">Fudan University</p>
+            </div>
+          </div>
+          <p>I am currently an AI researcher at the Qwen Team, Alibaba Group. Before that, I graduated from Fudan University under the supervision of Prof. <a class="inline-link" href="https://eetchen.github.io/" target="_blank">Tao Chen</a>. Previously, I have had the wonderful experience of working with Dr. <a class="inline-link" href="https://hongyuanzhu.github.io/" target="_blank">Hongyuan Zhu</a> from A*STAR, Dr. <a class="inline-link" href="https://www.skicyyu.org/" target="_blank">Gang Yu</a>, Dr. <a class="inline-link" href="https://icoz69.github.io/" target="_blank">Chi Zhang</a>, Dr. <a class="inline-link" href="https://chenxin.tech/" target="_blank">Xin Chen</a> from Tencent, and Dr. <a class="inline-link" href="https://bobrown.github.io/boZhang.github.io/" target="_blank">Bo Zhang</a> from Shanghai AI Lab.</p>
+          <p>My current work and research focus on <span class="focus-highlight">Large Vision-Language Models, Multi-agent System, Generative AI, and Embodied AI.</span></p>
+          <div class="social-wrap">
+            <div class="social-row">
+              <a class="icon-btn" href="mailto:limc22@m.fudan.edu.cn"><i class="fa-solid fa-envelope"></i><span>Email</span></a>
+              <a class="icon-btn" href="https://scholar.google.com/citations?user=SvPKvi4AAAAJ&hl=en" target="_blank"><i class="fa-brands fa-google-scholar"></i><span>Google Scholar</span></a>
+              <a class="icon-btn" href="http://linkedin.com/in/mason-l-6b5a2a328" target="_blank"><i class="fa-brands fa-linkedin"></i><span>LinkedIn</span></a>
+              <a class="icon-btn" href="#"><i class="fa-solid fa-file-lines"></i><span>CV</span></a>
+            </div>
+          </div>
+        </article>
+        <aside class="hero-right">
+          <div class="news-card">
+            <h3 style="margin:0 0 10px;">News</h3>
+            <div class="news-viewport" id="newsViewport">
+              <ul class="news-track" id="newsTrack">
+                <li class="news-item"><b>May 2026</b> 🚀 We present <a href="https://qwen.ai/blog?id=qwenvla" target="_blank">Qwen-VLA</a>, a unified VLA generalist model for manipulation, navigation, and trajectory prediction.</li>
+                <li class="news-item"><b>May 2026</b> 📄 We release <a href="https://finevla.xlang.ai/" target="_blank">FineVLA</a> and <a href="https://arxiv.org/abs/2511.17001" target="_blank">CalibAll</a> for fine-grained VLA policies and cross-embodiment learning.</li>
+                <li class="news-item"><b>Apr. 2026</b> 🛠️ <a href="https://starvla.github.io/" target="_blank">StarVLA</a> technical report released — a Lego-like development codebase for agile embodied intelligence. <a href="https://github.com/StarVLA/StarVLA" target="_blank"><img src="https://img.shields.io/github/stars/StarVLA/StarVLA?style=social" alt="stars" /></a></li>
+                <li class="news-item"><b>Mar. 2026</b> 🎉 <a href="https://arxiv.org/abs/2309.11268" target="_blank">StructChart</a> accepted to <span class="venue-red">T-PAMI</span>!</li>
+                <li class="news-item"><b>Feb. 2026</b> 🔑 We open-source <a href="https://qwen.ai/blog?id=qwen3.5" target="_blank">Qwen3.5</a>. <a href="https://github.com/QwenLM/Qwen3.5" target="_blank"><img src="https://img.shields.io/github/stars/QwenLM/Qwen3.5?style=social" alt="stars" /></a></li>
+                <li class="news-item"><b>Jan. 2026</b> 🎉 <a href="https://arxiv.org/abs/2601.03309" target="_blank">VLM4VLA</a> accepted to <span class="venue-red">ICLR 2026</span>! <a href="https://github.com/CladernyJorn/VLM4VLA" target="_blank"><img src="https://img.shields.io/github/stars/CladernyJorn/VLM4VLA?style=social" alt="stars" /></a></li>
+                <li class="news-item"><b>Nov. 2025</b> 📑 <a href="https://arxiv.org/abs/2511.21631" target="_blank">Qwen3-VL</a> technical report released. <a href="https://github.com/QwenLM/Qwen3-VL" target="_blank"><img src="https://img.shields.io/github/stars/QwenLM/Qwen3-VL?style=social" alt="stars" /></a></li>
+                <li class="news-item"><b>Oct. 2025</b> 🎧 <a href="https://github.com/QwenLM/Qwen3-Omni" target="_blank">Qwen3-Omni</a> released. <a href="https://github.com/QwenLM/Qwen3-Omni" target="_blank"><img src="https://img.shields.io/github/stars/QwenLM/Qwen3-Omni?style=social" alt="stars" /></a></li>
+                <li class="news-item"><b>Jul. 2025</b> 🎉 <a href="https://arxiv.org/abs/2412.05983" target="_blank">Chimera</a> accepted to <span class="venue-red">ICCV 2025</span>!</li>
+                <li class="news-item"><b>Jan. 2025</b> 🎉 <a href="https://openreview.net/pdf?id=6RiBl5sCDF" target="_blank">GeoX</a> accepted to <span class="venue-red">ICLR 2025</span>.</li>
+                <li class="news-item"><b>Jan. 2025</b> 🚀 <a href="../MSheng-Lee.github.io/papers/WI3D__Weakly_Incremental_3D_Detection_via_vision_Foundation_Models.pdf" target="_blank">WI3D</a> accepted to <span class="venue-red">T-MM 2025</span>.</li>
+                <li class="news-item"><b>Sep. 2024</b> 🎉 <a href="https://neurips.cc/virtual/2024/poster/94006" target="_blank">3DET-Mamba</a> accepted to <span class="venue-red">NeurIPS 2024</span>!</li>
+                <li class="news-item"><b>Jul. 2024</b> 🎉 <a href="https://arxiv.org/abs/2312.10763" target="_blank">M3DBench</a> accepted to <span class="venue-red">ECCV 2024</span>.</li>
+                <li class="news-item"><b>Apr. 2024</b> 🎉 <a href="https://arxiv.org/abs/2309.02999" target="_blank">Vote2Cap-DETR++</a> accepted to <span class="venue-red">T-PAMI 2024</span>.</li>
+                <li class="news-item"><b>Feb. 2024</b> 🎉 <a href="https://arxiv.org/abs/2311.18651" target="_blank">LL3DA</a> accepted to <span class="venue-red">CVPR 2024</span>.</li>
+              </ul>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="collaborations">
+      <div class="container">
+        <h2 class="sec-title"><i class="fa-solid fa-people-group"></i>Collaborations</h2>
+        <div class="contact-card">
+          <ul class="collab-list">
+            <li>We are looking for candidates passionate about (1) native multimodal large models and (2) agents with deep reasoning and planning. We also welcome collaborations from academia and industry — email <a href="mailto:limingsheng.lms@alibaba-inc.com">limingsheng.lms@alibaba-inc.com</a>.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications">
+      <div class="container">
+        <h2 class="sec-title"><i class="fa-solid fa-book-open"></i>Selected Publications</h2>
+
+        <!-- Tech Reports -->
+        <div class="pub-group-header" onclick="toggleGroup(this)">
+          <h3><i class="fa-solid fa-flask" style="margin-right:6px;color:#2563eb"></i>Tech Reports</h3>
+          <i class="fa-solid fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="pub-group-content">
+          <div class="pub-list">
+            <article class="pub-card">
+              <div class="pub-media-wrap"><span class="venue-badge badge-report">Technical Report</span><img class="pub-media" src="./assets/paper/qwenvla_overview.png" alt="Qwen-VLA" /></div>
+              <div>
+                <h3 class="pub-title">Qwen-VLA: Unifying Vision-Language-Action Modeling across Tasks, Environments, and Robot Embodiments</h3>
+                <p class="pub-authors"><span class="me-flag">Co-First Author</span></p>
+                <p class="pub-links"><a href="https://qwen.ai/blog?id=qwenvla" target="_blank">project</a> <span class="tbd">arXiv (TBD)</span> <a href="https://github.com/QwenLM/Qwen-VLA" target="_blank">github</a></p>
+                <ul class="pub-bullets"><li>An all-in-one unified vision-language-action generalist model that handles complex manipulation tasks, long-horizon navigation, and trajectory prediction within a single framework, generalizing across diverse tasks, environments, and robot embodiments.</li></ul>
+              </div>
+            </article>
+            <article class="pub-card">
+              <div class="pub-media-wrap"><span class="venue-badge badge-report">Technical Report</span><img class="pub-media" src="./assets/paper/qwen3vl.jpeg" alt="Qwen3-VL" /></div>
+              <div>
+                <h3 class="pub-title">Qwen3-VL Technical Report</h3>
+                <p class="pub-authors"><span class="me-flag">Core Author</span></p>
+                <p class="pub-links"><a href="https://qwen.ai/blog?id=99f0335c4ad9ff6153e517418d48535ab6d8afef" target="_blank">project</a> <a href="https://arxiv.org/abs/2511.21631" target="_blank">paper</a> <a href="https://github.com/QwenLM/Qwen3-VL" target="_blank">github</a></p>
+                <ul class="pub-bullets"><li>A next-generation vision-language model featuring advanced visual reasoning, native dynamic-resolution processing, long-context video understanding, and multilingual support with both dense and MoE variants.</li></ul>
+              </div>
+            </article>
+            <article class="pub-card">
+              <div class="pub-media-wrap"><span class="venue-badge badge-report">Technical Report</span><img class="pub-media" src="./assets/paper/qwen35omni.jpg" alt="Qwen3.5-Omni" /></div>
+              <div>
+                <h3 class="pub-title">Qwen3.5-Omni Technical Report</h3>
+                <p class="pub-authors"><span class="me-flag">Author</span></p>
+                <p class="pub-links"><a href="https://qwen.ai/blog?id=qwen3.5-omni" target="_blank">project</a> <a href="https://arxiv.org/pdf/2604.15804" target="_blank">paper</a></p>
+                <ul class="pub-bullets"><li>An upgraded end-to-end omni model with enhanced multimodal reasoning, real-time streaming interaction, and stronger cross-modal understanding and generation across text, image, audio, and video modalities.</li></ul>
+              </div>
+            </article>
+            <article class="pub-card">
+              <div class="pub-media-wrap"><span class="venue-badge badge-report">Technical Report</span><img class="pub-media" src="./assets/paper/qwen3omni.png" alt="Qwen3-Omni" /></div>
+              <div>
+                <h3 class="pub-title">Qwen3-Omni Technical Report</h3>
+                <p class="pub-authors"><span class="me-flag">Author</span></p>
+                <p class="pub-links"><a href="https://qwen.ai/blog?id=fdfbaf2907a36b7659a470c77fb135e381302028&from=research.research-list" target="_blank">project</a> <a href="https://arxiv.org/pdf/2509.17765" target="_blank">paper</a> <a href="https://github.com/QwenLM/Qwen3-Omni" target="_blank">github</a></p>
+                <ul class="pub-bullets"><li>A natively end-to-end multilingual omni model supporting real-time streaming interaction across text, image, audio, and video with unified perception, understanding, and generation.</li></ul>
+              </div>
+            </article>
+            <article class="pub-card">
+              <div class="pub-media-wrap"><span class="venue-badge badge-report">Technical Report</span><img class="pub-media" src="./assets/paper/starVLA.png" alt="StarVLA" /></div>
+              <div>
+                <h3 class="pub-title">StarVLA: A Lego-like Codebase for Vision-Language-Action Model Developing</h3>
+                <p class="pub-authors"><span class="me-flag">Author</span></p>
+                <p class="pub-links"><a href="https://starvla.github.io/" target="_blank">project</a> <a href="https://arxiv.org/abs/2604.05014" target="_blank">paper</a> <a href="https://github.com/StarVLA/StarVLA" target="_blank">github</a></p>
+                <ul class="pub-bullets"><li>A modular, Lego-like open-source codebase for agile VLA development, supporting seamless integration of diverse VLMs, action heads, and world models with unified training, evaluation, and deployment across robotics benchmarks.</li></ul>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Preprints -->
+        <div class="pub-group-header" onclick="toggleGroup(this)">
+          <h3><i class="fa-solid fa-file-pen" style="margin-right:6px;color:#6366f1"></i>Preprints</h3>
+          <i class="fa-solid fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="pub-group-content">
+          <div class="pub-list">
+            <article class="pub-card">
+              <div class="pub-media-wrap"><span class="venue-badge badge-preprint">arXiv 2026</span><video class="pub-media" src="./assets/paper/CalibAll.mp4" autoplay muted loop playsinline style="object-fit:cover"></video></div>
+              <div>
+                <h3 class="pub-title">Unify Robot Actions in Camera Frame</h3>
+                <p class="pub-authors">Sicheng Xie, Lingchen Meng, Zijie Diao, Haidong Cao, Zhiying Du, Shuyuan Tu, Jiaqi Leng, Qiuyue Wang, <span class="me-flag">Mingsheng Li</span>, Shuai Bai, Zuxuan Wu, Yu-Gang Jiang</p>
+                <p class="pub-links"><a href="https://arxiv.org/abs/2511.17001" target="_blank">paper</a> <a href="https://github.com/SII-dannyXSC/CalibAll" target="_blank">github</a></p>
+                <ul class="pub-bullets"><li>A training-free, robot-independent pipeline that estimates camera extrinsics for offline datasets and unifies robot actions in camera frame, enabling scalable cross-embodiment learning without any manual calibration.</li></ul>
+              </div>
+            </article>
+            <article class="pub-card">
+              <div class="pub-media-wrap"><span class="venue-badge badge-preprint">arXiv 2026</span><img class="pub-media" src="./assets/paper/finevla.png" alt="FineVLA" /></div>
+              <div>
+                <h3 class="pub-title">FineVLA: Fine-Grained Instruction Alignment for Steerable Vision-Language-Action Policies</h3>
+                <p class="pub-authors">Xintong Hu, Xuhong Huang, Jinyu Zhang, Yutong Yao, Yuchong Sun, Qiuyue Wang, <span class="me-flag">Mingsheng Li</span>, Sicheng Xie, Yitao Liu, Junhao Chen, Yixuan Chen, Yingming Zheng, Shuai Bai, Tao Yu</p>
+                <p class="pub-links"><a href="https://arxiv.org/abs/2605.27284" target="_blank">paper</a> <a href="https://finevla.xlang.ai/" target="_blank">project</a> <a href="https://github.com/xlang-ai/FineVLA" target="_blank">github</a> <a href="https://huggingface.co/datasets/xlangai/RoboFine-bench" target="_blank">benchmark</a></p>
+                <ul class="pub-bullets"><li>Fine-grained VLA supervision that improves steerable robot control.</li></ul>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Published -->
+        <div class="pub-group-header" onclick="toggleGroup(this)">
+          <h3><i class="fa-solid fa-award" style="margin-right:6px;color:#be185d"></i>Published</h3>
+          <i class="fa-solid fa-chevron-down toggle-icon"></i>
+        </div>
+        <div class="pub-group-content">
+          <div class="pub-list">
+            <article class="pub-card">
+              <div class="pub-media-wrap"><span class="venue-badge badge-journal">T-PAMI 2026</span><img class="pub-media" src="./assets/paper/structchart.png" alt="StructChart" /></div>
+              <div>
+                <h3 class="pub-title">StructChart: Perception, Structuring, Reasoning for Visual Chart Understanding</h3>
+                <p class="pub-authors">Renqiu Xia, Haoyang Peng, Hancheng Ye, <span class="me-flag">Mingsheng Li</span>, Xiangchao Yan, Peng Ye, Botian Shi, Yu Qiao, Junchi Yan, Bo Zhang</p>
+                <p class="pub-venue-line"><i>IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>T-PAMI</b>), 2026.</i></p>
+                <p class="pub-links"><a href="https://ieeexplore.ieee.org/iel8/34/4359286/11419865.pdf" target="_blank">project</a> <a href="https://arxiv.org/abs/2309.11268" target="_blank">paper</a> <a href="https://github.com/UniModal4Reasoning/ChartVLM" target="_blank">github</a></p>
+                <ul class="pub-bullets"><li>A unified approach for visual chart perception and reasoning using Structured Triplet Representations.</li></ul>
+              </div>
+            </article>
+            <article class="pub-card">
+              <div class="pub-media-wrap"><span class="venue-badge badge-conf">ICLR 2026</span><img class="pub-media" src="./assets/paper/vlm4vla.png" alt="VLM4VLA" /></div>
+              <div>
+                <h3 class="pub-title">VLM4VLA: Revisiting Vision-Language-Models in Vision-Language-Action Models</h3>
+                <p class="pub-authors">Jianke Zhang, Xiaoyu Chen, Qiuyue Wang, <span class="me-flag">Mingsheng Li</span>, Yanjiang Guo, Yucheng Hu, Jiajun Zhang, Shuai Bai, Junyang Lin, Jianyu Chen</p>
+                <p class="pub-venue-line"><i>International Conference on Learning Representations (<b>ICLR</b>), 2026.</i></p>
+                <p class="pub-links"><a href="https://arxiv.org/abs/2601.03309" target="_blank">paper</a> <a href="https://github.com/CladernyJorn/VLM4VLA" target="_blank">github</a></p>
+                <ul class="pub-bullets"><li>A unified framework for studying how VLMs affect VLA performance.</li></ul>
+              </div>
+            </article>
+            <article class="pub-card">
+              <div class="pub-media-wrap"><span class="venue-badge badge-conf">ICCV 2025</span><img class="pub-media" src="./assets/paper/chimera.png" alt="Chimera" /></div>
+              <div>
+                <h3 class="pub-title">Chimera: Improving Generalist Model with Domain-Specific Experts</h3>
+                <p class="pub-authors">Tianshuo Peng, <span class="me-flag">Mingsheng Li (co-first)</span>, Jiakang Yuan, Hongbin Zhou, Renqiu Xia, Renrui Zhang, Lei Bai, Song Mao, Bin Wang, Aojun Zhou, Botian Shi, Tao Chen, Bo Zhang, Xiangyu Yue</p>
+                <p class="pub-venue-line"><i>IEEE/CVF International Conference on Computer Vision (<b>ICCV</b>), 2025.</i></p>
+                <p class="pub-links"><a href="https://arxiv.org/abs/2412.05983" target="_blank">paper</a> <a href="https://github.com/UniModal4Reasoning/Chimera" target="_blank">github</a></p>
+                <ul class="pub-bullets"><li>Cost-effective general-specialist collaboration to improve LMMs.</li></ul>
+              </div>
+            </article>
+            <article class="pub-card">
+              <div class="pub-media-wrap"><span class="venue-badge badge-conf">ICLR 2025</span><img class="pub-media" src="./assets/paper/geox.png" alt="GeoX" /></div>
+              <div>
+                <h3 class="pub-title">GeoX: Geometric Problem Solving Through Unified Formalized Vision-Language Pre-training</h3>
+                <p class="pub-authors">Renqiu Xia, <span class="me-flag">Mingsheng Li (co-first)</span>, Hancheng Ye, Wenjie Wu, Hongbin Zhou, Jiakang Yuan, Tianshuo Peng, Xinyu Cai, Xiangchao Yan, Bin Wang, Conghui He, Botian Shi, Tao Chen, Junchi Yan, Bo Zhang</p>
+                <p class="pub-venue-line"><i>International Conference on Learning Representations (<b>ICLR</b>), 2025.</i></p>
+                <p class="pub-links"><a href="https://openreview.net/pdf?id=6RiBl5sCDF" target="_blank">paper</a> <a href="https://github.com/UniModal4Reasoning/GeoX" target="_blank">github</a></p>
+                <ul class="pub-bullets"><li>Formalized pre-training for geometry problem solving.</li></ul>
+              </div>
+            </article>
+            <article class="pub-card">
+              <div class="pub-media-wrap"><span class="venue-badge badge-journal">T-MM 2025</span><img class="pub-media" src="./assets/paper/wi3d.png" alt="WI3D" /></div>
+              <div>
+                <h3 class="pub-title">WI3D: Weakly Incremental 3D Detection via Vision Foundation Models</h3>
+                <p class="pub-authors"><span class="me-flag">Mingsheng Li</span>, Sijin Chen, Shengji Tang, Hongyuan Zhu, Yanyan Fang, Xin Chen, Zhuoyuan Li, Fukun Yin, Tao Chen</p>
+                <p class="pub-venue-line"><i>IEEE Transactions on Multimedia (<b>T-MM</b>), 2025.</i></p>
+                <p class="pub-links"><a href="https://ieeexplore.ieee.org/document/11045442/" target="_blank">project</a> <a href="https://ieeexplore.ieee.org/document/11045442/" target="_blank">paper</a></p>
+                <ul class="pub-bullets"><li>Introducing new categories to 3D detectors via 2D foundation models.</li></ul>
+              </div>
+            </article>
+            <article class="pub-card">
+              <div class="pub-media-wrap"><span class="venue-badge badge-conf">NeurIPS 2024</span><img class="pub-media" src="./assets/paper/3detmamba.png" alt="3DET-Mamba" /></div>
+              <div>
+                <h3 class="pub-title">3DET-Mamba: State Space Model for End-to-End 3D Object Detection</h3>
+                <p class="pub-authors"><span class="me-flag">Mingsheng Li</span>, Jiakang Yuan, Sijin Chen, Lin Zhang, Anyu Zhu, Xin Chen, Tao Chen</p>
+                <p class="pub-venue-line"><i>Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2024.</i></p>
+                <p class="pub-links"><a href="https://neurips.cc/virtual/2024/poster/94006" target="_blank">project</a> <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/547108084f0c2af39b956f8eadb75d1b-Paper-Conference.pdf" target="_blank">paper</a></p>
+                <ul class="pub-bullets"><li>End-to-end 3D detection with Mamba-based representation learning.</li></ul>
+              </div>
+            </article>
+            <article class="pub-card">
+              <div class="pub-media-wrap"><span class="venue-badge badge-conf">ECCV 2024</span><img class="pub-media" src="./assets/paper/m3dbench.png" alt="M3DBench" /></div>
+              <div>
+                <h3 class="pub-title">M3DBench: Let's Instruct Large Models with Multi-modal 3D Prompts</h3>
+                <p class="pub-authors"><span class="me-flag">Mingsheng Li</span>, Xin Chen, Chi Zhang, Sijin Chen, Hongyuan Zhu, Fukun Yin, Gang Yu, Tao Chen</p>
+                <p class="pub-venue-line"><i>European Conference on Computer Vision (<b>ECCV</b>), 2024.</i></p>
+                <p class="pub-links"><a href="https://m3dbench.github.io/" target="_blank">project</a> <a href="https://arxiv.org/abs/2312.10763" target="_blank">paper</a> <a href="https://github.com/OpenM3D/M3DBench" target="_blank">github</a></p>
+                <ul class="pub-bullets"><li>Large-scale 3D-language dataset with interleaved multimodal prompts.</li></ul>
+              </div>
+            </article>
+            <article class="pub-card">
+              <div class="pub-media-wrap"><span class="venue-badge badge-journal">T-PAMI 2024</span><img class="pub-media" src="./assets/paper/vote2cap-detr++.png" alt="Vote2Cap-DETR++" /></div>
+              <div>
+                <h3 class="pub-title">Vote2Cap-DETR++: Decoupling Localization and Describing for End-to-End 3D Dense Captioning</h3>
+                <p class="pub-authors">Sijin Chen, Hongyuan Zhu, <span class="me-flag">Mingsheng Li</span>, Xin Chen, Peng Guo, Yinjie Lei, Gang Yu, Taihao Li, Tao Chen</p>
+                <p class="pub-venue-line"><i>IEEE Transactions on Pattern Analysis and Machine Intelligence (<b>T-PAMI</b>), 2024.</i></p>
+                <p class="pub-links"><a href="https://ieeexplore.ieee.org/abstract/document/10496863/" target="_blank">paper</a> <a href="https://github.com/ch3cook-fdu/Vote2Cap-DETR" target="_blank">github</a></p>
+                <ul class="pub-bullets"><li>Decoupled queries for 3D localization and dense captioning.</li></ul>
+              </div>
+            </article>
+            <article class="pub-card">
+              <div class="pub-media-wrap"><span class="venue-badge badge-conf">CVPR 2024</span><img class="pub-media" src="./assets/paper/LL3DA.gif" alt="LL3DA" /></div>
+              <div>
+                <h3 class="pub-title">LL3DA: Visual Interactive Instruction Tuning for Omni-3D Understanding, Reasoning, and Planning</h3>
+                <p class="pub-authors">Sijin Chen, Xin Chen, Chi Zhang, <span class="me-flag">Mingsheng Li</span>, Gang Yu, Hao Fei, Hongyuan Zhu, Jiayuan Fan, Tao Chen</p>
+                <p class="pub-venue-line"><i>IEEE/CVF Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2024.</i></p>
+                <p class="pub-links"><a href="https://ll3da.github.io/" target="_blank">project</a> <a href="https://arxiv.org/abs/2311.18651" target="_blank">paper</a> <a href="https://github.com/Open3DA/LL3DA" target="_blank">github</a></p>
+                <ul class="pub-bullets"><li>3D-LLMs for visual and textual interactions in complex 3D scenes.</li></ul>
+              </div>
+            </article>
+            <article class="pub-card">
+              <div class="pub-media-wrap"><span class="venue-badge badge-journal">T-MM 2024</span><img class="pub-media" src="./assets/paper/lgd.jpg" alt="LGD" /></div>
+              <div>
+                <h3 class="pub-title">Lightweight Model Pre-training via Language Guided Knowledge Distillation</h3>
+                <p class="pub-authors"><span class="me-flag">Mingsheng Li</span>, Lin Zhang, Mingzhen Zhu, Zilong Huang, Gang Yu, Jiayuan Fan, Tao Chen</p>
+                <p class="pub-venue-line"><i>IEEE Transactions on Multimedia (<b>T-MM</b>), 2024.</i></p>
+                <p class="pub-links"><a href="https://ieeexplore.ieee.org/document/10551493" target="_blank">paper</a> <a href="https://github.com/mZhenz/LGD" target="_blank">github</a></p>
+                <ul class="pub-bullets"><li>Language-guided knowledge distillation for lightweight model pre-training.</li></ul>
+              </div>
+            </article>
+</div>
+        </div>
+
+      </div>
+    </section>
+
+<!--     <section id="gallery"> -->
+<!--       <div class="container"> -->
+<!--         <h2 class="sec-title"><i class="fa-solid fa-images"></i>Gallery</h2> -->
+<!--         <div class="gallery-wrap"> -->
+<!--           <div class="gallery-row"> -->
+<!--             <div class="gallery-track"> -->
+<!--               <div class="media-card"><video autoplay muted loop playsinline src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"></video><p>Video Demo</p></div> -->
+<!--               <div class="media-card"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1400&auto=format&fit=crop" alt="Visual 1" /><p>Research Showcase</p></div> -->
+<!--               <div class="media-card"><video autoplay muted loop playsinline src="https://www.w3schools.com/html/mov_bbb.mp4"></video><p>Dynamic Scene</p></div> -->
+<!--               <div class="media-card"><img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1400&auto=format&fit=crop" alt="Visual 2" /><p>Model Visualization</p></div> -->
+<!--               <div class="media-card"><video autoplay muted loop playsinline src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"></video><p>Video Demo</p></div> -->
+<!--               <div class="media-card"><img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1400&auto=format&fit=crop" alt="Visual 1" /><p>Research Showcase</p></div> -->
+<!--               <div class="media-card"><video autoplay muted loop playsinline src="https://www.w3schools.com/html/mov_bbb.mp4"></video><p>Dynamic Scene</p></div> -->
+<!--               <div class="media-card"><img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1400&auto=format&fit=crop" alt="Visual 2" /><p>Model Visualization</p></div> -->
+<!--             </div> -->
+<!--           </div> -->
+<!--           <div class="gallery-row"> -->
+<!--             <div class="gallery-track reverse"> -->
+<!--               <div class="media-card"><img src="https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?q=80&w=1400&auto=format&fit=crop" alt="Visual 3" /><p>Multimodal Intelligence</p></div> -->
+<!--               <div class="media-card"><video autoplay muted loop playsinline src="https://www.w3schools.com/html/movie.mp4"></video><p>Interactive Motion</p></div> -->
+<!--               <div class="media-card"><img src="https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?q=80&w=1400&auto=format&fit=crop" alt="Visual 4" /><p>3D Understanding</p></div> -->
+<!--               <div class="media-card"><video autoplay muted loop playsinline src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"></video><p>Video Generation</p></div> -->
+<!--               <div class="media-card"><img src="https://images.unsplash.com/photo-1526378800651-c32d170fe6f8?q=80&w=1400&auto=format&fit=crop" alt="Visual 3" /><p>Multimodal Intelligence</p></div> -->
+<!--               <div class="media-card"><video autoplay muted loop playsinline src="https://www.w3schools.com/html/movie.mp4"></video><p>Interactive Motion</p></div> -->
+<!--               <div class="media-card"><img src="https://images.unsplash.com/photo-1507146153580-69a1fe6d8aa1?q=80&w=1400&auto=format&fit=crop" alt="Visual 4" /><p>3D Understanding</p></div> -->
+<!--               <div class="media-card"><video autoplay muted loop playsinline src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"></video><p>Video Generation</p></div> -->
+<!--             </div> -->
+<!--           </div> -->
+<!--         </div> -->
+<!--       </div> -->
+<!--     </section> -->
+
+    <section id="experiences">
+      <div class="container">
+        <h2 class="sec-title"><i class="fa-solid fa-briefcase"></i>Experiences</h2>
+        <div class="exp-timeline">
+          <article class="exp-item">
+            <div class="exp-logo-wrap">
+              <img class="exp-logo" src="./assets/experience/qwen.png" alt="Qwen" onerror="this.style.display='none';this.parentElement.textContent='Qwen';" />
+            </div>
+            <div>
+              <div class="exp-head"><div class="exp-role">Senior AI Researcher</div><div class="exp-time">Apr. 2025 - Present</div></div>
+              <p><b>Qwen Team, Alibaba Group</b></p>
+            </div>
+          </article>
+          <article class="exp-item">
+            <div class="exp-logo-wrap">
+              <img class="exp-logo" src="./assets/experience/Tencent.png!a" alt="Tencent" onerror="this.style.display='none';this.parentElement.textContent='Tencent';" />
+            </div>
+            <div>
+              <div class="exp-head"><div class="exp-role">Research Intern</div><div class="exp-time">Jun. 2024 - Apr. 2025</div></div>
+              <p><b>Tencent Tech</b></p>
+            </div>
+          </article>
+          <article class="exp-item">
+            <div class="exp-logo-wrap">
+              <img class="exp-logo" src="./assets/experience/shanghai ai lab.png" alt="Shanghai AI Lab" onerror="this.style.display='none';this.parentElement.textContent='Shanghai AI Lab';" />
+            </div>
+            <div>
+              <div class="exp-head"><div class="exp-role">Research Intern</div><div class="exp-time">Oct. 2023 - Jun. 2024</div></div>
+              <p><b>Shanghai AI Lab</b></p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="awards">
+      <div class="container">
+        <h2 class="sec-title"><i class="fa-solid fa-trophy"></i>Awards</h2>
+        <ul style="padding-left:20px;font-size:15px;line-height:2;">
+          <li><b>2025</b> &nbsp; Tencent Rhino-Bird Elite Talent Program</li>
+          <li><b>2025</b> &nbsp; Outstanding Graduate of Shanghai</li>
+          <li><b>2024</b> &nbsp; National Scholarship</li>
+          <li><b>2023</b> &nbsp; First-Class Academic Scholarship</li>
+          <li><b>2022</b> &nbsp; Outstanding Graduate of Fudan University</li>
+          <li><b>2020</b> &nbsp; National 2nd Prize, China Undergraduate Mathematical Contest in Modeling</li>
+          <li><b>2019</b> &nbsp; National 1st Prize, Chinese Mathematics Competitions (Top 20)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <h2 class="sec-title"><i class="fa-solid fa-pen-nib"></i>Services</h2>
+        <p style="font-size:15px;line-height:1.8;"><b>Conference Reviewer:</b> CVPR, ICCV, ECCV, NeurIPS, ICLR, ACM MM</p>
+        <p style="font-size:15px;line-height:1.8;"><b>Journal Reviewer:</b> T-PAMI</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">&copy; 2026 Mingsheng Li</div>
+  </footer>
+
+  <script>
+  // Toggle publication groups
+  function toggleGroup(header) {
+    var content = header.nextElementSibling;
+    var isCollapsed = header.classList.contains('collapsed');
+    if (isCollapsed) {
+      header.classList.remove('collapsed');
+      content.style.maxHeight = content.scrollHeight + 'px';
+      content.classList.remove('collapsed');
+    } else {
+      header.classList.add('collapsed');
+      content.style.maxHeight = content.scrollHeight + 'px';
+      requestAnimationFrame(function() {
+        content.classList.add('collapsed');
+      });
+    }
+  }
+  // Initialize all groups as expanded
+  document.querySelectorAll('.pub-group-content').forEach(function(el) {
+    el.style.maxHeight = 'none';
+  });
+
+  (function () {
+    var menuLinks = document.querySelectorAll("#menu a");
+    var menu = document.getElementById("menu");
+    var indicator = document.getElementById("menuIndicator");
+    var sections = [].slice.call(document.querySelectorAll("main section[id]"));
+    function moveIndicatorTo(link) {
+      if (!menu || !indicator || !link) return;
+      var menuRect = menu.getBoundingClientRect();
+      var linkRect = link.getBoundingClientRect();
+      indicator.style.width = linkRect.width + "px";
+      indicator.style.transform = "translateX(" + (linkRect.left - menuRect.left) + "px)";
+      indicator.style.opacity = "1";
+    }
+    function currentActiveLink() {
+      return document.querySelector("#menu a.active") || menuLinks[0];
+    }
+    var obs = new IntersectionObserver(function(entries) {
+      entries.forEach(function(e) {
+        if (!e.isIntersecting) return;
+        var id = e.target.id;
+        menuLinks.forEach(function(a) { a.classList.toggle("active", a.getAttribute("href") === "#" + id); });
+        moveIndicatorTo(currentActiveLink());
+      });
+    }, { rootMargin: "-30% 0px -60% 0px", threshold: 0.01 });
+    sections.forEach(function(s) { obs.observe(s); });
+    menuLinks.forEach(function(a) {
+      a.addEventListener("mouseenter", function() { moveIndicatorTo(a); });
+    });
+    if (menu) menu.addEventListener("mouseleave", function() { moveIndicatorTo(currentActiveLink()); });
+
+    var heroLeft = document.querySelector(".hero-left");
+    var heroRight = document.querySelector(".hero-right");
+    var lightBtn = document.getElementById("lightBtn");
+    var darkBtn = document.getElementById("darkBtn");
+    function applyTheme(theme) {
+      var isDark = theme === "dark";
+      document.body.classList.toggle("dark-mode", isDark);
+      if (lightBtn) lightBtn.classList.toggle("active", !isDark);
+      if (darkBtn) darkBtn.classList.toggle("active", isDark);
+      try { localStorage.setItem("theme", isDark ? "dark" : "light"); } catch(e) {}
+    }
+    function syncHeight() {
+      if (!heroLeft || !heroRight) return;
+      heroRight.style.height = heroLeft.offsetHeight + "px";
+    }
+    // Default light, only button toggle (no system auto-detect)
+    var saved = null;
+    try { saved = localStorage.getItem("theme"); } catch(e) {}
+    applyTheme(saved === "dark" ? "dark" : "light");
+    if (lightBtn) lightBtn.addEventListener("click", function() { applyTheme("light"); });
+    if (darkBtn) darkBtn.addEventListener("click", function() { applyTheme("dark"); });
+    syncHeight();
+    window.addEventListener("load", syncHeight);
+    window.addEventListener("resize", syncHeight);
+    var avatar = document.querySelector(".avatar");
+    if (avatar) avatar.addEventListener("load", syncHeight);
+    var viewport = document.getElementById("newsViewport");
+    if (viewport) viewport.scrollTop = 0;
+  })();
+  
+  // Scroll animations
+  document.querySelectorAll('.pub-card, .exp-item, .sec-title, .contact-card, #awards ul li, #services p').forEach(function(el) {
+    el.classList.add('fade-in');
+  });
+  var scrollObs = new IntersectionObserver(function(entries) {
+    entries.forEach(function(e) {
+      if (e.isIntersecting) {
+        e.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.fade-in').forEach(function(el) { scrollObs.observe(el); });
+
+  </script>
+</body>
+</html>
